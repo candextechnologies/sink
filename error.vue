@@ -1,10 +1,10 @@
 <script setup>
-import errorImage from './assets/images/404.svg?raw'
+import CandexLogo from './assets/images/CandexLogo.png'
 </script>
 
 <template>
-  <div class="flex items-center justify-center h-screen bg-white text-black text-2xl">
-    404 - Page Not Found
+  <div class="flex flex-col items-center justify-center h-screen bg-white text-black text-2xl">
+    <img :src="logo" alt="Logo" class="w-32 mb-4" />
+    <p>404 - Page Not Found</p>
   </div>
 </template>
-
