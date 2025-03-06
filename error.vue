@@ -1,5 +1,5 @@
 <script setup>
-import CandexLogo from './assets/images/CandexLogo.png'
+import CandexLogo from './public/CandexLogo.png'
 </script>
 
 <template>
